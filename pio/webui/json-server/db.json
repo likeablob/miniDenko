@@ -1,0 +1,57 @@
+{
+  "device": {
+    "name": "md",
+    "batv": 3944.77,
+    "uptime": 2255,
+    "ip_c": "192.168.127.196",
+    "ip_h": "192.168.5.1",
+    "wifi_c": false,
+    "chip_id": 1100015,
+    "cpu_f": 80,
+    "vcc": 65535,
+    "flash_rs": 4194304,
+    "heap_f": 32048
+  },
+  "settings": {
+    "messages": [
+      {
+        "value": "Hi, This is a message saved on the device.",
+        "monospace": true,
+        "scroll": true
+      },
+      {
+        "value": "こんにちは！ From miniDenko with <3",
+        "monospace": true,
+        "scroll": true
+      },
+      {
+        "value": ".... Bazinga!",
+        "monospace": false,
+        "scroll": true
+      }
+    ],
+    "hApName": "miniDenko-10c",
+    "hApPass": "",
+    "cApName": "ddw3howkGlKD7Z9qM",
+    "cApPass": "monaka23",
+    "wifiMode": 3,
+    "scrollWait": 20,
+    "brightness": 9,
+    "version": 2
+  },
+  "message": {
+    "value": "Hi, This is a message saved on the browser.",
+    "monospace": true,
+    "scroll": true
+  },
+  "scan": [
+    {
+      "ssid": "CLOUDCAM_304a268951ec",
+      "rssi": -68
+    },
+    {
+      "ssid": "ddw3howkGlKD7Z9qM",
+      "rssi": -46
+    }
+  ]
+}
