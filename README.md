@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" width="60%" height="auto" src="./logo/minidenko-logo-dark.png">
+  <img align="center" width="60%" height="auto" src="./logo/minidenko-logo-r2-dark.png">
 </p>
 
 # miniDenko - A portable messaging device
