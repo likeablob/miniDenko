@@ -31,6 +31,7 @@ Or LED Matrix + ESP8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hac
 - [`pio/`](./pio) - The code for the firmware(PlatformIO)
 - [`pio/webui/`](./pio/webui) - The code for the WebUI(Vue.js + Buefy)
 - [`kicad/`](./kicad) - The PCB design (KiCad)
+- [`gerber/`](./gerber) - The PCB gerber files (KiCad)
 - [`openscad/`](./openscad) - The models for the 3D-printable case. (OpenSCAD)
 
 ## BOM
