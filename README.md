@@ -5,6 +5,8 @@
 # miniDenko - A portable messaging device
 `miniDenko` (Denko = 電光 is from "an electric scoreboard" in Japanese) is a portable messaging device.
 
+Or LED Matrix + ESP8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hackable LED messaging platform
+
 <p align="center">
   <img align="center" width="30%" height="auto" src="./images/md_2_sd.gif">
 </p>
@@ -16,7 +18,7 @@
   - Supports `STA`, `AP`, `AP_STA` modes to collaborate with the devices.
 - Made from easily-obtainable parts. (See [#BOM](#BOM))
 - Its [portable and slim shape](./openscad/minidenko-case-body-opaque.stl) fits in your (large) pocket.
-- LED Matrix + esp8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hackable LED messaging platform
+
 - And as a latest gadget should be, equipped with the **Type-C** charging port.
 
 ## UI
