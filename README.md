@@ -28,24 +28,29 @@ Or LED Matrix + ESP8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hac
 - [`gerber/`](./gerber) - PCB gerber files (KiCad)
 - [`openscad/`](./openscad) - models for the 3D-printable case. (OpenSCAD)
 
-## UI
-<p align="center">
-  <img align="center" width="30%" height="auto" src="./images/md_webui_1_s.png">
-  <img align="center" width="30%" height="auto" src="./images/md_webui_2_s.png">
-</p>
+## Gallery
+|                                                                                                                                                                   | Descriptions              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| <img align="center" width="auto" height="200px" src="./images/md_photo_duo_1.jpg">                                                                                | Front view                |
+| <img align="center" width="auto" height="200px" src="./images/md_photo_side_port.jpg">                                                                            | Side view (Charging port) |
+| <img align="center" width="auto" height="200px" src="./images/md_photo_side_sw.jpg">                                                                              | Side view (Power SW)      |
+| <img align="center" width="auto" height="200px" src="./images/md_photo_pcb.jpg">                                                                                  | PCB                       |
+| <img align="center" width="auto" height="200px" src="./images/md_webui_1_s.png"> <img align="center" width="auto" height="200px" src="./images/md_webui_2_s.png"> | Web UI                    |
+
 
 ## BOM
 | Name                                    | Quantity | Descriptions |
 | --------------------------------------- | :------: | ------------ |
 | ESP-12F (ESP8266 module)                |    1     |              |
-| 32x8 LED Matrix module (MAX7219)        |    1     |              |
-| GY-521 (MPU6050 module)                 |    1     | 8pins        |
-| 350mAh LiPo battery                     |    1     | 19x36x8.5mm  |
-| Type-C LiPo charging board (TP4056)     |    1     | 28x17.3mm    |
+| 32x8 LED matrix module (MAX7219)        |    1     |              |
+| GY-521 (MPU6050 module)                 |    1     | 8 pins       |
+| 350mAh LiPo battery                     |    1     | 19x36x8.5 mm |
+| Type-C LiPo charging board (TP4056)     |    1     | 28x17.3 mm   |
 | 10k ohm resistor (0805_2012Metric)      |    4     |              |
 | 33k ohm resistor (0805_2012Metric)      |    1     |              |
 | 1uF ceramic capacitor (0805_2012Metric) |    1     |              |
 | 3.3V LDO xc6206p332mr (SOT-23)          |    1     |              |
+| SPDT rocker switch (10x15 mm)           |    1     |              |
 | M1.2 x 5mm self tapping screw           |    4     |              |
 
 
