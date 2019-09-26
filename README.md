@@ -21,24 +21,40 @@ Or LED Matrix + ESP8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hac
 
 - And as a latest gadget should be, equipped with the **Type-C** charging port.
 
+## Project structure
+- [`pio/`](./pio) - code for the firmware(PlatformIO)
+- [`pio/webui/`](./pio/webui) - code for the WebUI(Vue.js + Buefy)
+- [`kicad/`](./kicad) - PCB design (KiCad)
+- [`gerber/`](./gerber) - PCB gerber files (KiCad)
+- [`openscad/`](./openscad) - models for the 3D-printable case. (OpenSCAD)
+
 ## UI
 <p align="center">
   <img align="center" width="30%" height="auto" src="./images/md_webui_1_s.png">
   <img align="center" width="30%" height="auto" src="./images/md_webui_2_s.png">
 </p>
 
-## Project structure
-- [`pio/`](./pio) - The code for the firmware(PlatformIO)
-- [`pio/webui/`](./pio/webui) - The code for the WebUI(Vue.js + Buefy)
-- [`kicad/`](./kicad) - The PCB design (KiCad)
-- [`gerber/`](./gerber) - The PCB gerber files (KiCad)
-- [`openscad/`](./openscad) - The models for the 3D-printable case. (OpenSCAD)
-
 ## BOM
-// WIP
+| Name                                    | Quantity | Descriptions |
+| --------------------------------------- | :------: | ------------ |
+| ESP-12F (ESP8266 module)                |    1     |              |
+| 32x8 LED Matrix module (MAX7219)        |    1     |              |
+| GY-521 (MPU6050 module)                 |    1     | 8pins        |
+| 350mAh LiPo battery                     |    1     | 19x36x8.5mm  |
+| Type-C LiPo charging board (TP4056)     |    1     | 28x17.3mm    |
+| 10k ohm resistor (0805_2012Metric)      |    4     |              |
+| 33k ohm resistor (0805_2012Metric)      |    1     |              |
+| 1uF ceramic capacitor (0805_2012Metric) |    1     |              |
+| 3.3V LDO xc6206p332mr (SOT-23)          |    1     |              |
+| M1.2 x 5mm self tapping screw           |    4     |              |
+
+
+## Build instructions
+WIP
 
 ## Refs
 - https://www.thingiverse.com/thing:3876563
 - https://hackaday.io/project/167747-minidenko
+  
 ## License
 MIT
