@@ -106,7 +106,7 @@ void SettingsService::nextMessage(DenkoMessage &msg) {
     for(size_t i = 1; i <= CONFIG_MSGS_NUM; i++) {
         size_t idx = (currentMessageIdx + i) % CONFIG_MSGS_NUM;
         auto _msg = messages[idx];
-        if(_msg.value) {
+        if(_msg.value.length()) {
             currentMessageIdx = idx;
             msg = _msg;
             return;
