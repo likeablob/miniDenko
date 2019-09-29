@@ -31,7 +31,7 @@ $ make -j4
 
 [![minidenko-case-body-transparent](./images/minidenko-case-body-transparent_s.png)](./minidenko-case-body-transparent.stl)
 
-### [minidenko-case-backpanel-a](./minidenko-case-backpanel-a.stl.stl)
+### [minidenko-case-backpanel-a](./minidenko-case-backpanel-a.stl)
 - A backpanel (lid) - Type A
 - Print settings: PLA, 0.2mm, 180 ℃
 

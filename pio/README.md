@@ -21,6 +21,15 @@ $ pio run -t upload
 upload_port = ${env:main.device_name}.local
 upload_protocol = espota
 ```
+### ISP port (J2) pin definitions:
+```
+V: 5V (LDO_IN)
+R: ESP_RESET: RST pin
+B: ESP_BOOT: GPIO0 pin
+G: GND
+T: ESP_TXD: TX pin
+R: ESP_RXD: RX pin
+```
 
 ## Build WebUI
 - All the assets are gziped and included as C headers.
