@@ -51,11 +51,12 @@ Or LED Matrix + ESP8266 + MPU6050 + Modern Web framework(Vue.js + Buefy) = A hac
 | 1uF ceramic capacitor (0805_2012Metric) |    1     |              |
 | 3.3V LDO xc6206p332mr (SOT-23)          |    1     |              |
 | SPDT rocker switch (10x15 mm)           |    1     |              |
-| M1.2 x 5mm self tapping screw           |    4     |              |
+| M1.2 x 5 mm self tapping screw          |    4     |              |
+| M2 x 6 mm self tapping screw            |    2     |              |
 
 
 ## Build instructions
-WIP
+https://hackaday.io/project/167747/instructions
 
 ## Refs
 - https://www.thingiverse.com/thing:3876563
