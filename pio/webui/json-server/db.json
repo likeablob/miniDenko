@@ -1,0 +1,57 @@
+{
+  "device": {
+    "name": "md",
+    "batv": 3944.77,
+    "uptime": 2255,
+    "ip_c": "192.168.10.10",
+    "ip_h": "192.168.5.1",
+    "wifi_c": false,
+    "chip_id": 1100000,
+    "cpu_f": 80,
+    "vcc": 65535,
+    "flash_rs": 4194304,
+    "heap_f": 32048
+  },
+  "settings": {
+    "messages": [
+      {
+        "value": "Hi, This is a message saved on the device.",
+        "monospace": true,
+        "scroll": true
+      },
+      {
+        "value": "こんにちは！ From miniDenko with <3",
+        "monospace": true,
+        "scroll": true
+      },
+      {
+        "value": ".... Bazinga!",
+        "monospace": false,
+        "scroll": true
+      }
+    ],
+    "hApName": "miniDenko-10c8e0",
+    "hApPass": "",
+    "cApName": "",
+    "cApPass": "",
+    "wifiMode": 2,
+    "scrollWait": 20,
+    "brightness": 9,
+    "version": 0
+  },
+  "message": {
+    "value": "Hi, This is a message saved on the browser.",
+    "monospace": true,
+    "scroll": true
+  },
+  "scan": [
+    {
+      "ssid": "nopLAN",
+      "rssi": -68
+    },
+    {
+      "ssid": "honeytrAP",
+      "rssi": -46
+    }
+  ]
+}
